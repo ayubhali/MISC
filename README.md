@@ -6,12 +6,19 @@ Following our initial vulnerability assessment, we’ve prepared a set of remedi
 
 ---
 
-## Remediation Scripts
+## 🔧 Vulnerabilities & Remediation Scripts
 
 1. [**Third-Party Software Removal – Wireshark**](https://github.com/ayubhali/MISC/blob/main/vul-remediations/remediation-wireshark-uninstall.ps1)  
+   Removes unauthorized or insecure third-party software such as Wireshark.
+
 2. [**Windows OS Secure Configuration – Insecure Protocols**](https://github.com/ayubhali/MISC/blob/main/vul-remediations/toggle-protocols.ps1)  
+   Disables deprecated and insecure network protocols.
+
 3. [**Windows OS Secure Configuration – Insecure Ciphersuites**](https://github.com/ayubhali/MISC/blob/main/vul-remediations/toggle-cipher-suites.ps1)  
+   Restricts use of weak encryption cipher suites.
+
 4. [**Windows OS Secure Configuration – Guest Account Group Membership**](https://github.com/ayubhali/MISC/blob/main/vul-remediations/toggle-guest-local-administrators.ps1)  
+   Removes unnecessary guest accounts from the Local Administrators group.
 
 ---
 
@@ -21,3 +28,4 @@ Best regards,
 **Ayub Ali**  
 Security Analyst  
 Governance, Risk, and Compliance
+i
