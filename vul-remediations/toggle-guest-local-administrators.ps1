@@ -5,14 +5,14 @@
     Make sure to run as Administrator or with appropriate privileges.
 
 .NOTES
-    Author        : Josh Madakor
-    Date Created  : 2024-09-09
-    Last Modified : 2024-09-09
+    Author        : Ayub Ali
+    Date Created  : 2025-05-27
+    Last Modified : 2025-05-28
     Version       : 1.0
 
 .TESTED ON
-    Date(s) Tested  : 2024-09-09
-    Tested By       : Josh Madakor
+    Date(s) Tested  : 2025-05-27
+    Tested By       : Ayub Ali
     Systems Tested  : Windows Server 2019 Datacenter, Build 1809
     PowerShell Ver. : 5.1.17763.6189
 
@@ -20,9 +20,10 @@
     Set [$AddGuestToAdminGroup = $False] to secure the system
     Example syntax:
     PS C:\> .\toggle-guest-local-administrators.ps1 
- #>
- 
- # Define the variable to control the action: $True to add the guest account, $False to remove it
+#>
+
+
+# Define the variable to control the action: $True to add the guest account, $False to remove it
 $AddGuestToAdminGroup = $False
 
 # Define the local group and user account
