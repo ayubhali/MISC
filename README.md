@@ -6,7 +6,7 @@ Following our initial vulnerability assessment, we’ve prepared a set of remedi
 
 ---
 
-## 🔧 Vulnerabilities & Remediation Scripts
+## Remediation Scripts
 
 1. [**Third-Party Software Removal – Wireshark**](https://github.com/ayubhali/MISC/blob/main/vul-remediations/remediation-wireshark-uninstall.ps1)  
    Removes unauthorized or insecure third-party software such as Wireshark.
