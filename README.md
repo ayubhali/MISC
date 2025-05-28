@@ -1,18 +1,30 @@
-**Subject:** Vulnerability Remediation Scripts for Testing and Deployment
+# Vulnerability Remediation Scripts – Testing & Deployment
 
 **Hi Team,**
 
-Based on our initial vulnerability scan and assessment, we have created a set of scripts to help you tackle the initial remediation efforts. These scripts target key vulnerabilities and can be easily integrated into your deployment platform (e.g., SCCM). Please test them before deploying to production.
+Following our initial vulnerability assessment, we’ve prepared a set of remediation scripts designed to address key findings. These scripts can be integrated into your deployment tools (e.g., SCCM) and should be **tested in a staging environment** before being rolled out to production.
 
-### Vulnerabilities and Remediations:
-1. [**Third-Party Software Removal (Wireshark)**](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/remediation-wireshark-uninstall.ps1)
-2. [**Windows OS Secure Configuration (Insecure Protocols)**](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/toggle-protocols.ps1)
-3. [**Windows OS Secure Configuration (Insecure Ciphersuites)**](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/toggle-cipher-suites.ps1)
-4. [**Windows OS Secure Configuration (Guest Account Group Membership)**](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/toggle-guest-local-administrators.ps1)
+---
 
-Let me know if you have any questions or need any adjustments!
+## 🔧 Vulnerabilities & Remediation Scripts
 
-Best regards,
+1. [**Third-Party Software Removal – Wireshark**](https://github.com/ayubhali/MISC/blob/main/vul-remediations/remediation-wireshark-uninstall.ps1)  
+   Removes unauthorized or insecure third-party software such as Wireshark.
 
-**Ayub Ali, Security Analyst**<br/>
-**Governance, Risk, and Compliance**
+2. [**Windows OS Secure Configuration – Insecure Protocols**](https://github.com/ayubhali/MISC/blob/main/vul-remediations/toggle-protocols.ps1)  
+   Disables deprecated and insecure network protocols.
+
+3. [**Windows OS Secure Configuration – Insecure Ciphersuites**](https://github.com/ayubhali/MISC/blob/main/vul-remediations/toggle-cipher-suites.ps1)  
+   Restricts use of weak encryption cipher suites.
+
+4. [**Windows OS Secure Configuration – Guest Account Group Membership**](https://github.com/ayubhali/MISC/blob/main/vul-remediations/toggle-guest-local-administrators.ps1)  
+   Removes unnecessary guest accounts from the Local Administrators group.
+
+---
+
+Let me know if you have any questions or would like modifications to these scripts.
+
+Best regards,  
+**Ayub Ali**  
+Security Analyst  
+Governance, Risk, and Compliance
