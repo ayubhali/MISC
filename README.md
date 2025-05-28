@@ -4,8 +4,6 @@
 
 Following our initial vulnerability assessment, we’ve prepared a set of remediation scripts designed to address key findings. These scripts can be integrated into your deployment tools (e.g., SCCM) and should be **tested in a staging environment** before being rolled out to production.
 
-##  Vulnerabilities & Remediation Scripts
-
 1. [**Third-Party Software Removal – Wireshark**](https://github.com/ayubhali/MISC/blob/main/vul-remediations/remediation-wireshark-uninstall.ps1)  
 2. [**Windows OS Secure Configuration – Insecure Protocols**](https://github.com/ayubhali/MISC/blob/main/vul-remediations/toggle-protocols.ps1)  
 3. [**Windows OS Secure Configuration – Insecure Ciphersuites**](https://github.com/ayubhali/MISC/blob/main/vul-remediations/toggle-cipher-suites.ps1)  
